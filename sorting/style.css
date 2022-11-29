@@ -1,0 +1,59 @@
+body {
+	background: skyblue;
+}
+
+h1{
+	color: darkslateblue;
+	text-align: center;
+}
+
+
+button{
+	margin: auto;
+	font-size: 16px;
+	padding: 5px 10px;
+	background-color: yellow;
+	cursor: pointer;
+	opacity: 0.6;
+	transition-duration: 0.4s;
+	border-radius: 5px;
+	border-color:  #0000ff;
+	color: dark blanchedalmond;
+}
+
+button:hover {
+  background-color: FFD2EA;
+  color: black;
+  opacity: 1;
+}
+
+
+.arr{
+	position: absolute;
+	left: 0.5%;
+}
+
+.sort_buttons{
+	display: flex;
+	justify-content: flex-end;
+}
+
+#bar{
+	background: green;
+  margin-top: 60px;
+  height: 300px;
+  float: left;
+  left: 20%;
+  padding: 3px;
+  top: 0;
+	margin-left: 5px;
+}
+
+#bars{
+	display: flex;
+	justify-content: safe center;
+}
+
+.BS{
+	margin: auto 4.5px auto 0;
+}
